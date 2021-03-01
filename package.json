@@ -1,0 +1,39 @@
+{
+  "name": "@upcodee/lce",
+  "version": "1.0.0",
+  "description": "LCE is library for wrapping Loading, Content, Error DTO with conversion hooks from RxJS and @upcodee/store",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "barrelsby --delete -d src && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upcodee/typed.git"
+  },
+  "keywords": [
+    "typescript",
+    "lce",
+    "loading",
+    "content",
+    "error",
+    "javascript"
+  ],
+  "author": "upcodee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upcodee/store/issues"
+  },
+  "homepage": "https://github.com/upcodee/store#readme",
+  "devDependencies": {
+    "barrelsby": "^2.2.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@upcodee/store": "^1.0.0",
+    "@reactivex/rxjs": "6.6.3",
+    "rxjs": "6.6.3",
+    "mobx": "6.1.4"
+  }
+}
